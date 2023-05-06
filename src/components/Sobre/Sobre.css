@@ -1,0 +1,85 @@
+.main-about-skills {
+  display: flex;
+  flex-direction: row;
+  color: rgba(138, 247, 234, 0.8);
+  margin-left: -5rem;
+  align-items: center;
+}
+
+@media screen and (max-width:600px) {
+  .main-about-skills {
+    margin-left: 0rem;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem;
+    margin: 0rem;
+  }
+  
+}
+
+.main-about-skills li {
+  display: flex;
+  list-style: none;
+  font-size: 0.725rem;
+}
+
+
+.main-about-skills .skill::before {
+  content: "➤";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.525rem;
+}
+
+/* .main-about-skills .css::before {
+    content: "➤";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.525rem;
+  }
+  
+  .main-about-skills .js::before {
+    content: "➤";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.525rem;
+  }
+  
+  .main-about-skills .ts::before {
+    content: "➤";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.525rem;
+  }
+  
+  .main-about-skills .react::before {
+    content: "➤";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.525rem;
+  }
+  
+  .main-about-skills .bs::before {
+    content: "➤";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.525rem;
+  } */
