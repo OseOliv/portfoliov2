@@ -36,6 +36,7 @@ export const LogoNavbar = styled.img`
   margin: 0.625rem;
   max-width: 5.45rem;
   height: auto;
+  padding-top: 1rem;
 
   @media screen and (min-width: 600px) {
     max-width: 5.45rem;
