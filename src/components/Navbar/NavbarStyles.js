@@ -25,10 +25,20 @@ export const LogoContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 3.125rem;
+  padding-left: 11.125rem;
 
   @media screen and (max-width:600px) {
-    margin-right: 3.125px;
+    margin-right: 142.125px;
+  }
+`;
+
+export const LogoNavbar = styled.img`
+  margin: 0.625rem;
+  max-width: 5.45rem;
+  height: auto;
+
+  @media screen and (min-width: 600px) {
+    max-width: 5.45rem;
   }
 `;
 
@@ -67,15 +77,7 @@ export const NavbarLinkExtended = styled(Link)`
   margin: 0.625rem;
 `;
 
-export const LogoNavbar = styled.img`
-  margin: 0.625rem;
-  max-width: 12.5rem;
-  height: auto;
 
-  @media screen and (min-width: 600px) {
-    max-width: 11.25rem;
-  }
-`;
 
 export const OpenLinksButton = styled.button`
   width: 4.375rem;
