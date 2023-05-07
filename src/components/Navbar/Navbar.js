@@ -33,7 +33,7 @@ function Navbar() {
     setExtendNavbar((curr) => !curr);
 }}
 >
-    {extendNavbar ? <span style={{color: 'aqua'}}> &#10005;</span> : <span style={{color: 'aqua'}}> &#9776; </span>}
+    {extendNavbar ? <span style={{color: 'aqua'}}> &#10005;</span> : <span style={{color: 'aqua'}}> &#8801; </span>}
 
 
             </OpenLinksButton>
