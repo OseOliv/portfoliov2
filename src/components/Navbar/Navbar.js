@@ -29,11 +29,12 @@ function Navbar() {
             <NavbarLink to="/contato"> Contato </NavbarLink>
 
             <OpenLinksButton
-              onClick={() => {
-                setExtendNavbar((curr) => !curr);
-              }}
-            >
-              {extendNavbar ? <> &#10005;</> : <> &#8801; </>}
+            onClick={() => {
+    setExtendNavbar((curr) => !curr);
+}}
+>
+{extendNavbar ? <span style={{color: 'red'}}> &#10005;</span> : <span style={{color: 'red'}}> &#9776; </span>}
+
 
             </OpenLinksButton>
           </NavbarLinkContainer>
