@@ -34,7 +34,7 @@ function Sobre() {
               poderia criar e fazer visualmente com um computador.
               <br />
               <br />
-              Trabalhei como designer gráfico de 2018 até 2012, quando decidi me
+              Trabalhei como designer gráfico de 2008 até 2012, quando decidi me
               dedicar à área de gastronomia e trabalhei como chef de cozinha por
               quase nove anos em navios de cruzeiro. No entanto, me mantive
               atento as novidades que surgiram na área de desenvolvimento web
