@@ -15,7 +15,6 @@ import {
   ProjetosTittleCardContainer,
 } from "./ProjetosStyles";
 
-import ProjetoImg0 from "../../assets/img/teste-projetos.png";
 
 
 export default function CardContent(props) {
@@ -24,28 +23,27 @@ export default function CardContent(props) {
       <ProjetosContainer>
         <ProjetosCardContainer>
           <ProjetosCardImgContainer>
-            <ProjetosCardImg src={ProjetoImg0} />
+            <ProjetosCardImg src={props.img} />
           </ProjetosCardImgContainer>
 
           <ProjetosTittleCardContainer>
-            <ProjetosCardTittle>Portfolio v1.0</ProjetosCardTittle>
+            <ProjetosCardTittle>{props.title}</ProjetosCardTittle>
           </ProjetosTittleCardContainer>
 
           <ProjetosCardDescContainer>
             <ProjetosCardDescText>
-              Meu primeiro projeto de portfólio usando apenas HTML, CSS e
-              JavaScript, sem o uso de nenhuma biblioteca ou framework.
+             {props.description}
             </ProjetosCardDescText>
           </ProjetosCardDescContainer>
 
           <ProjetosCardSkillContainer>
             <ProjetosCardSkillText>
-              ▹HTML ▹CSS ▹JavaScript
+              {props.skill}
             </ProjetosCardSkillText>
           </ProjetosCardSkillContainer>
 
           <ProjetosCardButtonContainer>
-            <Link to="https://github.com/OseOliv/portfolio-v1" target="_blanc">
+            <Link to={props.buttonlink} target="_blanc">
               <ProjetosCardButton>Github</ProjetosCardButton>
             </Link>
           </ProjetosCardButtonContainer>
