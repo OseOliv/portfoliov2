@@ -11,6 +11,7 @@ import ProImg0 from "../../assets/img/teste-projetos.png";
 import ProImg1 from "../../assets/img/teste-projetos1.png";
 import ProImg2 from "../../assets/img/teste-projetos2.png";
 import ProImg3 from "../../assets/img/teste-projetos3.png";
+import ProImg4 from "../../assets/img/teste-projetos4.png";
 
 export default function ProjetosCard(props) {
   return (
@@ -44,9 +45,17 @@ export default function ProjetosCard(props) {
         />
 
         <CardContent
+          img={ProImg4}
+          title="Weather App"
+          description="Modelo de um Weather App em React, utilizado OpenWeatherMap API and GeoDB API e estilizado com CSS e JavaScript"
+          skill="▹React ▹CSS ▹JavaScript ▹ OpenWeather API"
+          buttonlink="https://github.com/OseOliv/Weather-App-v1"
+        />
+
+        <CardContent
           img={ProImg3}
           title="Pokedex Pokemon"
-          description="Modelo simples de uma Pokedex Pokémon, utilizando a PokeAPI e estilizando apenas com puro CSS e JavaScript."
+          description="Modelo simples de uma Pokedex Pokémon, utilizando a PokeAPI e estilizando apenas com CSS e JavaScript."
           skill="▹HTML ▹CSS ▹JavaScript ▹PokeAPI"
           buttonlink="https://github.com/OseOliv/Modelo-Simples-PokeDex-Dio"
         />
