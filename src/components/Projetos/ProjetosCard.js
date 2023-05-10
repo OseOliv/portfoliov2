@@ -47,7 +47,7 @@ export default function ProjetosCard(props) {
         <CardContent
           img={ProImg4}
           title="Weather App"
-          description="Modelo de um Weather App em React, utilizado OpenWeatherMap API and GeoDB API e estilizado com CSS e JavaScript"
+          description="Modelo de um Weather App em React, utilizando OpenWeatherMap API and GeoDB API e estilizado com CSS e JavaScript"
           skill="▹React ▹CSS ▹JavaScript ▹ OpenWeather API"
           buttonlink="https://github.com/OseOliv/Weather-App-v1"
         />
