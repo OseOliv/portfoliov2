@@ -29,7 +29,7 @@ export const LogoContainer = styled.div`
 
   @media screen and (max-width: 600px) {
     margin-right: 142.125px;
-    padding-left: 7.125rem;
+    padding-left: 11.125rem;
   }
 `;
 
@@ -86,9 +86,6 @@ export const NavbarLink = styled(NavLink)`
     display: none;
   }
 `;
-
-
-
 
 
 export const NavbarLinkExtended = styled(NavLink)`
