@@ -121,7 +121,8 @@ export const ProjetosCardImgContainer = styled.div`
   width: auto;
 `;
 export const ProjetosCardImg = styled.img`
-  max-width: 20.875rem;
+  width: 20.875rem;
+  height: 10.938rem;
   border: 2px solid #03e8f4;
   border-radius: 2%;
   margin: 7px auto;
@@ -149,7 +150,12 @@ export const ProjetosCardDescText = styled.p`
   align-items: center;
   justify-content: center;
 `;
-export const ProjetosCardSkillContainer = styled.div``;
+export const ProjetosCardSkillContainer = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+`;
 export const ProjetosCardSkillText = styled.span`
   color: #03e8f471;
   display: flex;
